@@ -16,3 +16,7 @@
    - 오래걸린 이유 : map과 for의 차이점을 잘 인지하지 못했다. 기본에 더 충실하자;
 - margeTwoSortedList
    - 풀다 말음.
+- removeElement.js
+   - Runtime : 79 ms
+   - Memory 44.1 MB
+   - 전이랑 거의 같음. 
