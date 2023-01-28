@@ -19,4 +19,9 @@
 - removeElement.js
    - Runtime : 79 ms
    - Memory 44.1 MB
-   - 전이랑 거의 같음. 
+   - 전이랑 거의 같 
+- Binary Tree Inorder Traversal.js
+   - Runtime : 75 ms
+   - Memory 44.3 MB
+   - tree 알고리즘 공부를 더해야함.
+   
