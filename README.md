@@ -26,3 +26,6 @@
    - tree 알고리즘 공부를 더해야함.
 - Same tree.js
    - 내가 온전히 풀지않아 새로 풀기.
+- Symmetric Trre.ts
+   - Runtime 84 ms
+   - Memory 45.2 MB
