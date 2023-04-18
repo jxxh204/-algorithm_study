@@ -18,4 +18,5 @@ function solution(input) {
   }
   return result;
 }
+// 생각보다 단순했다 답 도출 방법부터 생각하자;
 console.log(solution(input));
