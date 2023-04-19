@@ -28,3 +28,5 @@ function solution(input) {
   return result.join(" ");
 }
 console.log(solution(input));
+
+// 이해했고 답도 나왔는데 왜 틀렸다고 나올까.. 나중에 다시 풀기.
