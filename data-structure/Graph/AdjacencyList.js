@@ -21,7 +21,7 @@ class Graph {
     }
     delete this.adjacencyList[v];
   }
-  depthFirstSearch(start) {
+  depthFirstSearch(start) { // 재귀형
     const result = [];
     let visited = {};
     const that = this;
@@ -33,6 +33,24 @@ class Graph {
         if(!visited[neighbor]) return dfs(neighbor)
       });
     })(start)
+    return result;
+  }
+  depthFirstIterative(start){ //순환형
+    const stack = [];
+    const result = [];
+    let visited = {};
+    stack.push(start)
+    while(stack.length){
+     const neighbor = stack.pop()
+     if(!visited[neighbor]){
+      visited[neighbor] = true;
+      result.push(neighbor)
+      this.adjacencyList[neighbor].map((s) => {
+        stack.push(s)
+      })
+     }
+    }
+    console.log(visited)
     return result;
   }
 }
@@ -53,4 +71,4 @@ g.addEdge("D","E")
 g.addEdge("D","F")
 g.addEdge("E","F")
 
-console.log(g.depthFirstSearch("A"));
+console.log(g.depthFirstIterative("A"));
