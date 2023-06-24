@@ -21,14 +21,36 @@ class Graph {
     }
     delete this.adjacencyList[v];
   }
+  depthFirstSearch(start) {
+    const result = [];
+    let visited = {};
+    const that = this;
+    (function dfs(vertex){
+      if(!vertex) return null
+      visited[vertex] = true;
+      result.push(vertex)
+      that.adjacencyList[vertex].forEach(neighbor => {
+        if(!visited[neighbor]) return dfs(neighbor)
+      });
+    })(start)
+    return result;
+  }
 }
 
 const g = new Graph();
-g.addVertex("busan");
-g.addVertex("seoul");
-g.addVertex("yang");
+g.addVertex("A");
+g.addVertex("B");
+g.addVertex("C");
+g.addVertex("D");
+g.addVertex("E");
+g.addVertex("F");
 
-g.addEdge("busan", "seoul");
+g.addEdge("A","B");
+g.addEdge("A","C")
+g.addEdge("B","D")
+g.addEdge("C","E")
+g.addEdge("D","E")
+g.addEdge("D","F")
+g.addEdge("E","F")
 
-g.removeVertex("busan");
-console.log(g);
+console.log(g.depthFirstSearch("A"));
