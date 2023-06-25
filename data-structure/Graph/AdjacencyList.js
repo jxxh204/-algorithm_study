@@ -53,6 +53,26 @@ class Graph {
     console.log(visited)
     return result;
   }
+  bfs(start){
+    const queue = [];
+    const result = [];
+    const visited = {};    
+    queue.push(start)
+    visited[start] = true;
+    while(queue.length) {
+      const neighbor = queue.shift();
+      result.push(neighbor);
+
+      this.adjacencyList[neighbor].map((n) => {
+        // this.adjacencyList[neighbor].slice().reverse().map((n) => { // 반대로
+          if(!visited[n]){
+            visited[n] = true;
+            queue.push(n)
+          }
+        })
+    }
+    return result
+  }
 }
 
 const g = new Graph();
@@ -71,4 +91,4 @@ g.addEdge("D","E")
 g.addEdge("D","F")
 g.addEdge("E","F")
 
-console.log(g.depthFirstIterative("A"));
+console.log(g.bfs("A"));
