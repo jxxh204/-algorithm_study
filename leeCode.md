@@ -66,7 +66,7 @@ Linked List
 
 - Reverse a Linked List - https://leetcode.com/problems/reverse-linked-list/
 - Detect Cycle in a Linked List - https://leetcode.com/problems/linked-list-cycle/
-- Merge Two Sorted Lists - https://leetcode.com/problems/merge-two-sorted-lists/
+- Merge Two Sorted Lists - 완 - https://leetcode.com/problems/merge-two-sorted-lists/
 - Merge K Sorted Lists - https://leetcode.com/problems/merge-k-sorted-lists/
 - Remove Nth Node From End Of List - https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 - Reorder List - https://leetcode.com/problems/reorder-list/
@@ -99,11 +99,11 @@ String
 
 Tree
 
-- Maximum Depth of Binary Tree - https://leetcode.com/problems/maximum-depth-of-binary-tree/
-- Same Tree - https://leetcode.com/problems/same-tree/
+- Maximum Depth of Binary Tree - 완 - https://leetcode.com/problems/maximum-depth-of-binary-tree/
+- Same Tree - 완 - https://leetcode.com/problems/same-tree/
 - Invert/Flip Binary Tree - https://leetcode.com/problems/invert-binary-tree/
 - Binary Tree Maximum Path Sum - https://leetcode.com/problems/binary-tree-maximum-path-sum/
-- Binary Tree Level Order Traversal - https://leetcode.com/problems/binary-tree-level-order-traversal/
+- Binary Tree Level Order Traversal - 완 - https://leetcode.com/problems/binary-tree-level-order-traversal/
 - Serialize and Deserialize Binary Tree - https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 - Subtree of Another Tree - https://leetcode.com/problems/subtree-of-another-tree/
 - Construct Binary Tree from Preorder and Inorder Traversal - https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
