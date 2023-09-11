@@ -79,11 +79,3 @@ console.log(solution(["i", "drink", "water"], ["want", "to"], ["i", "want", "to"
 
 console.log(solution(["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"], ["string", "or", "integer"], ["string", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]));
 console.log(solution(["a", "b", "c"], ["d", "e", "f"], ["a", "d", "f"])); // No
-// 하나이상 사용해야함.
-// 뛰어넘어서 사용할 수 없다.
-// console.log(solution(["ABACD", "BCEFD"], ["DBAC"]));
-// console.log(solution(["AAA", "BB"], ["ABA", "AAA"]));
-// console.log(solution(["ABC", "DEF", "GHI"], ["AFA"]));
-// console.log(solution(["AB", "CD", "EF"], ["AEC"]));
-// Your function might return [5], but the correct answer would be different.
-// Your function might return [8], but the correct answer would be different.
