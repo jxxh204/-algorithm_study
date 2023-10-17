@@ -26,9 +26,7 @@ function solution(n, computers) {
     console.log(y, visited[i], i);
     count++;
     repeatX(y, i);
-  }
-
-  console.log(count); //   return count;
+  } //   return count;
   //   function solution(n, computers) {
   //     const visited = new Array(n).fill(0);
   //     let count = 0;
@@ -49,6 +47,7 @@ function solution(n, computers) {
   //       }
   //     }
   //   }
+
 } // com[i] = 110;
 // (visited[i] = true), false;
 

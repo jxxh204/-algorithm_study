@@ -25,7 +25,6 @@ function solution(n, computers) {
     repeatX(y, i);
   }
 
-  console.log(count);
   //   return count;
 
   //   function solution(n, computers) {
